@@ -1,0 +1,32 @@
+% !TeX root = Imports.tex
+
+\RequirePackage{array,multirow}
+\RequirePackage[utf8]{inputenc}
+\RequirePackage{multicol}
+\RequirePackage{graphicx} 
+\RequirePackage{subcaption, caption}
+\RequirePackage{geometry}
+\RequirePackage[export]{adjustbox}
+\RequirePackage{color, colortbl}
+\RequirePackage{float}
+\RequirePackage{tabularx}
+\RequirePackage{titlesec}
+\RequirePackage[x11names]{xcolor}
+\RequirePackage[most]{tcolorbox}
+\RequirePackage{authblk}
+\newcommand{\custFItem}{ \bfseries \Large \color{black} \emph }
+\newcommand{\subText} {\normalfont \normalsize \color{black!50!white} }
+\newcommand{\randyStart}{\setlength{\abovecaptionskip}{12pt} \setlength{\belowcaptionskip}{12pt}}
+\newtcolorbox{shadedcvbox}[1][]{enhanced jigsaw,
+  colback=white!80!blue,
+  coltext={blue},
+  boxrule=0pt,
+  arc=3mm,
+  auto outer arc,
+  boxsep=3pt,
+  left=4pt,
+  right=2pt,
+  bottom=2pt,
+  top=2pt,
+  fontupper={\bfseries},
+  #1}
